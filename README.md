@@ -1,24 +1,14 @@
 Readme
 ======
 
-.. image:: https://img.shields.io/pypi/v/uniquewordlist.svg
-        :target: https://pypi.python.org/pypi/uniquewordlist
-
-.. image:: https://img.shields.io/travis/AntoineMeheut/uniquewordlist.svg
-        :target: https://travis-ci.org/AntoineMeheut/uniquewordlist
-
-.. image:: https://readthedocs.org/projects/uniquewordlist/badge/?version=latest
-        :target: https://uniquewordlist.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
+ The purpose of this program is to offer good programming practices in 
+ Python, when you want to build a program that can go to a computer 
+ production target.
+ 
 UniqueWordList
 --------------
  Extract from a file in RTF format a list of all the words in the file 
  without repetition.
- 
- The purpose of this program is to offer good programming practices in 
- Python, when you want to build a program that can go to a computer 
- production target.
  
  The object of this program is to read a text and extract the list of 
  words without repetition. The functional interest is thus voluntarily 
