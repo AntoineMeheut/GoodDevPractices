@@ -45,7 +45,6 @@ UniqueWordList
  can be packaged with Setuptools.
 
 * Free software: GNU General Public License v3
-* Documentation: https://uniquewordlist.readthedocs.io.
 
 
 Features
