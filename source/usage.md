@@ -4,7 +4,7 @@ Usage
 How to use this program ?
 -------------------------
 
-Make a clone locally from this project, open it in Pycharm.
+Make a clone locally from this project.
 
 You can then look at how to structure a project and its various
 components. And inspire you to create a new project or improve the 
