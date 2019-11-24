@@ -158,6 +158,8 @@
 <span class="kn">import</span> <span class="nn">logging.config</span>
 <span class="kn">import</span> <span class="nn">yaml</span>
 
+<span class="n">__all__</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;setup_logging&#39;</span><span class="p">]</span>
+
 
 <div class="viewcode-block" id="setup_logging"><a class="viewcode-back" href="../../../../source.html#source.modules.utils.logger.setup_logging">[docs]</a><span class="k">def</span> <span class="nf">setup_logging</span><span class="p">(</span><span class="n">default_path</span><span class="o">=</span><span class="s1">&#39;logging.yaml&#39;</span><span class="p">,</span> <span class="n">default_level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span> <span class="n">env_key</span><span class="o">=</span><span class="s1">&#39;LOG_CFG&#39;</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
@@ -171,7 +173,8 @@
 <span class="sd">    :return: logging configuration</span>
 <span class="sd">    :rtype: module</span>
 <span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">path</span> <span class="o">=</span> <span class="n">default_path</span>
+
+    <span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;./resource/&#39;</span> <span class="o">+</span> <span class="n">default_path</span>
     <span class="n">value</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="n">env_key</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span>
     <span class="k">if</span> <span class="n">value</span><span class="p">:</span>
         <span class="n">path</span> <span class="o">=</span> <span class="n">value</span>

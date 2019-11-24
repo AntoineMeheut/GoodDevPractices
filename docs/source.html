@@ -199,7 +199,9 @@ the functions that will realize the transformation value</p>
 <dl class="function">
 <dt id="source.modules.businessFunctions.findUniqueWordList.find_unique_word_list">
 <code class="sig-prename descclassname">source.modules.businessFunctions.findUniqueWordList.</code><code class="sig-name descname">find_unique_word_list</code><span class="sig-paren">(</span><em class="sig-param">text</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/source/modules/businessFunctions/findUniqueWordList.html#find_unique_word_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#source.modules.businessFunctions.findUniqueWordList.find_unique_word_list" title="Permalink to this definition">¶</a></dt>
-<dd><p>Built from a text the list of words without repetition</p>
+<dd><p>Built from a text the list of words without repetition and return the result to the caller</p>
+<p>Exception management :
+If any exception : log the trace of the exception stack and stop the execution of the programme</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – Text in RTF or TXT format</p>
@@ -216,7 +218,9 @@ the functions that will realize the transformation value</p>
 <dl class="function">
 <dt id="source.modules.businessFunctions.readAndLoadFile.read_and_load_file">
 <code class="sig-prename descclassname">source.modules.businessFunctions.readAndLoadFile.</code><code class="sig-name descname">read_and_load_file</code><span class="sig-paren">(</span><em class="sig-param">filename</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/source/modules/businessFunctions/readAndLoadFile.html#read_and_load_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#source.modules.businessFunctions.readAndLoadFile.read_and_load_file" title="Permalink to this definition">¶</a></dt>
-<dd><p>Open a file and load it into a memory structure</p>
+<dd><p>Open a file, load it into a memory structure and return the memory structure to the caller</p>
+<p>Exception management :
+If IOError or any exception : log the trace of the exception stack and stop the execution of the programme</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><p><strong>filename</strong> (<em>str</em>) – Path and file name, format rtf or text</p>
@@ -234,6 +238,8 @@ the functions that will realize the transformation value</p>
 <dt id="source.modules.businessFunctions.unloadAndWriteToFile.unload_and_write_to_file">
 <code class="sig-prename descclassname">source.modules.businessFunctions.unloadAndWriteToFile.</code><code class="sig-name descname">unload_and_write_to_file</code><span class="sig-paren">(</span><em class="sig-param">memory_structure</em>, <em class="sig-param">filename</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/source/modules/businessFunctions/unloadAndWriteToFile.html#unload_and_write_to_file"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#source.modules.businessFunctions.unloadAndWriteToFile.unload_and_write_to_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Unloads a structure in memory and writes it to a text file</p>
+<p>Exception management :
+If IOError or any exception : log the trace of the exception stack and stop the execution of the programme</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -242,10 +248,7 @@ the functions that will realize the transformation value</p>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
-<dd class="field-even"><p>Text in TXT format that contains all words in the list with one word per line</p>
-</dd>
-<dt class="field-odd">Return type</dt>
-<dd class="field-odd"><p>dict</p>
+<dd class="field-even"><p>Nothing</p>
 </dd>
 </dl>
 </dd></dl>

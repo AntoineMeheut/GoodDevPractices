@@ -23,7 +23,7 @@ import sys
 import rtcat_sphinx_theme
 sys.path.insert(0, os.path.abspath('..'))
 
-from lib import main
+from source import main
 
 # -- General configuration ---------------------------------------------
 

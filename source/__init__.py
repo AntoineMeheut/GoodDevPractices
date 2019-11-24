@@ -1,2 +1,2 @@
 from source import modules
-from source import principal
+from source import main
