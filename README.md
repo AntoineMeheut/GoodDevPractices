@@ -4,9 +4,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![GNU License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -31,8 +28,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
@@ -46,8 +41,6 @@
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -87,8 +80,6 @@ git clone https://github.com/AntoineMeheut/GoodDevPractices
 pip3 install -r requirements_dev.txt
 ```
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -96,12 +87,10 @@ Clone this project to use it for your developments.
 
 This project was structured with Cookiecutter_ to have a good example of a project in Python. You will find examples: tests components, modules structuring, documentation in the project components to then create the documentation with Sphinx and a mechanism for log management to the console and log files. Finally, this project can be packaged with Setuptools.
 
-
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [Project](https://github.com/AntoineMeheut/GoodDevPractices/projects) for a list of proposed features (and known issues).
-
 
 
 <!-- CONTRIBUTING -->
@@ -116,18 +105,15 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the GNU General Public License v3.0 License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Antoine Méheut - [@Linkedin_antoine-meheut](https://www.linkedin.com/in/antoine-meheut)
+If you want to contact me [just clic](mailto:github.contacts@protonmail.com)
 
 Project Link: [https://github.com/AntoineMeheut/GoodDevPractices](https://github.com/AntoineMeheut/GoodDevPractices)
 
