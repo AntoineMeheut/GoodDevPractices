@@ -6,6 +6,8 @@
 [![GNU License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)
+
 <br />
 <p align="center">
   <a href="https://github.com/AntoineMeheut/GoodDevPractices">
@@ -13,7 +15,6 @@
   </a>
 
   <h3 align="center">Python GoodDevPractices </h3>
-  [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)
 
   <p align="center">
     The purpose of this program is to offer good programming practices in Python, when you want to build a program that can go to a production target. You can then look at how to structure a project and its various components. And inspire you to create a new project or improve the quality of existing projects.
