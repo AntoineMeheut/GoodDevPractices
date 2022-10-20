@@ -1,3 +1,4 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AntoineMeheut/GoodDevPractices)
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -6,8 +7,6 @@
 [![GNU License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#<your-repository-url>)
-
 <br />
 <p align="center">
   <a href="https://github.com/AntoineMeheut/GoodDevPractices">
